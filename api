@@ -1,0 +1,22 @@
+curl --location 'https://test-partners.cashe.co.in/report/getLoanApprovalDetails' \
+--header 'Content-Type: application/json' \
+--header 'Check-Sum: S0p7tgz7ikaEUhGzxOith4cXmrQ=' \
+--data-raw '{
+    "partner_name": "TestPartner",
+    "pan": "ACBPU6711F",
+    "mobileNo": "6629667812",
+    "name": "usmanali",
+    "addressLine1": "201",
+    "locality": "Bangalore",
+    "pinCode": "560050",
+    "gender": "M",
+    "salary": "200000",
+    "state": "KARNATAKA",
+    "city": "Bangalore",
+    "dob": "1998-05-06 00:00:00",
+    "employmentType": 1,
+    "salaryReceivedType": 3,
+    "emailId": "bisaralli@gmail.com",
+    "companyName": "TS",
+    "loanAmount": "500000"
+}'
